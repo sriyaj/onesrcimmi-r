@@ -138,30 +138,64 @@
     <!--Career Section-->
     <section class="contact-section">
     	<div class="auto-container">
-        	<h2>Mail Sent</h2>
+        	<h2>Drop a Message</h2>
         	<div class="row clearfix">
             	<div class="form-column col-md-7 col-sm-12 col-xs-12">
                 	<div class="inner-column">
-						<!-- Contact Form Response-->
-						<?php
-							
-							$userName 		= $_POST['username'];
-							$userEmail	 	= $_POST['email'];
-							$userMessage 	= $_POST['message'];
+					<!-- Contact Form Response-->
+                    <?php
+                        
+                        $msg = "";
 
-							$to 			= "info@onesourceimmigration.com";
-							$subject 		= "Email from customer";
-							$body 			= "Information Submitted:";
+                        require "phpmailer/Exception.php";
+                        require "phpmailer/PHPMailer.php";
+                        require "phpmailer/SMTP.php";
 
-							$body .= "\r\n Name: " . $userName;
-							$body .= "\r\n Email: " . $userEmail;
-							$body .= "\r\n Message: " . $userMessage;
+                        function sendemail($to, $from, $fromName, $body, $attachment) {
+                            try {
 
-							mail($to, $subject, $body);
+                                $mail = new PHPMailer\PHPMailer\PHPMailer();
+                                $mail->setFrom($from, $fromName);
+                                $mail->addAddress($to);
 
-							echo "Thank you for your e-mail. We will call you shortly."
-						?>
-						<!-- End Contact Form Response-->
+                                if(!empty($attachment)) {
+                                    $mail->addAttachment($attachment);
+                                }                                    
+
+                                $mail->Subject = 'Email from customer';
+                                $mail->Body =$body;
+                                $mail->isSMTP(); 
+                                $mail->isHTML(false);
+
+                                return $mail->send();
+                            } catch (Exception $e) {
+                                echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
+                            }                                        
+                        }
+
+                        if (isset($_POST['submit'])) {
+
+                            $name = $_POST['username'];
+                            $email = $_POST['email'];
+                            $body = $_POST['body'];
+
+                            $file = "attachment/" . basename($_FILES['attachment']['name']);
+                            // echo "<pre>";
+                            // print_r($_FILES);
+
+                            if(!empty($_FILES) && !empty($_FILES['tmp_name'])) {
+                                move_uploaded_file($_FILES['attachment']['tmp_name'], $file);
+                            }
+
+                            if (sendemail('info@onesourceimmigration.com', $email, $name, $body, $file)) {
+                                $msg = 'Thanks for your e-mail. We will respond to you shortly.';
+                            } else
+                                $msg = 'Email Failed!. Please retry later';
+                            
+                            echo $msg;
+                        }
+                    ?>
+                    <!-- End Contact Form Response-->
                     </div>
                 </div>
 				<div class="info-column col-md-5 col-sm-12 col-xs-12">

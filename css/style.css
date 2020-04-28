@@ -5691,8 +5691,11 @@ img{
 	line-height:1.6em;
 	max-width:960px;
 	margin:0 auto;
-	margin-bottom:35px;
+	margin-bottom:35px;	
 }
+
+.call-to-action-section .text h3{
+	color:rgb(229, 240, 20);}
 
 .call-to-action-section .number-box{
 	position:relative;
@@ -6117,7 +6120,7 @@ img{
 	position:absolute;
 	left:0px;
 	top:0px;
-	color:#2c62bd;
+	color:#f5232e;
 	font-size:32px;
 	line-height:1em;
 }
@@ -6160,7 +6163,7 @@ img{
 }
 
 .testimonial-block-two.style-two .inner-box .lower-box .location{
-	color:#47aadd;
+	color:#f5232e;
 }
 
 /*** 

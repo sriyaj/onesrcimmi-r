@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>OneSource Immigration/Spousal Sponsorship</title>
+<title>OneSource Immigration/Entrepreneur Visa</title>
 <!-- Stylesheets -->
 <link href="css/bootstrap.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet">
@@ -30,7 +30,7 @@
     <!--Page Title-->
     <section class="page-title" style="background-image:url(images/background/20.jpg)">
     	<div class="auto-container">
-        	<h1>Spousal Sponsorship Program</h1>
+        	<h1>Entrepreneur Visa</h1>
         </div>
     </section>
     <!--End Page Title-->
@@ -72,25 +72,19 @@
                 <div class="content-column col-lg-9 col-md-8 col-sm-12">
                 	<div class="inner-column">
                         <div class="image">
-                        	<img src="images/resource/spousal-sponsorship-3.jpg" alt="" />
+                        	<img src="images/resource/company-4.jpg" alt="" />
                         </div>
-                        <h2>Canada - Spousal Sponsorship Program</h2>
+                        <h2>Canada - Entrepreneur Visa</h2>
                         <div class="text">
-                        	<p>The Spousal Sponsorship program is a subsection of the Family Class migration classification. Under this program, a Canadian native or lasting occupant may support a companion or custom-based law accomplice for Canadian perpetual habitation</p>
-                            <p>The Spousal Sponsorship program is a subsection of the Family Class migration classification. Under this program, a Canadian native or lasting occupant may support a companion or custom-based law accomplice for Canadian perpetual habitation.</p>
+                        	<p>Canada, with a standout amongst the most business-accommodating economies on the planet, is an enormously appealing nation in which to create and fabricate another business thought.</p>
+                            <p>In case you're hoping to move to Canada as a business visionary in the Canadian economy, the administration of Canada, just as certain Canadian territories, present some tempting alternatives.</p>
                             <ul class="list-style-four">
-                            <li>Spouse</li>
-                            <li>Common-law Partner</li>
-                            <li>Conjugal Partner</li>
-                            </ul>
-                            <p>Sponsor also needs to meet few requirements to be eligible to sponsor any member of the family class: </p>
-                            <ul class="list-style-four">
-                                <li>Be at least 18 years of age</li>
-                                <li>Be a Canadian Citizen or Permanent Resident</li>
-                                <li>Must sign an agreement and undertaking</li>
-                                <li>Must not be in default of an undertaking, an immigration loan, a performance bond, or family support payments</li>
-                                <li>Brothers/ sisters/ nephews/ nieces/ grandchildren who are orphans, under the age of 18 and unmarried</li>
-                                <li>Any Relative, if the sponsor is alone in Canada means sponsor has no member of family in Canada or abroad from the above mentioned list.</li>
+                            <li>Start-up Visa Program</li>
+                            <p>The Start-Up Visa Program urges foreigner business visionaries to develop their organizations in Canada. Effective candidates connect with private part associations in Canada, where they can get financing, direction and mastery in opening and working their undertaking in Canada. With the Start-Up Visa, Canada is focusing on business visionaries who can possibly manufacture inventive organizations that can contend on a worldwide scale and make occupations.</p>
+                            <li>Quebec Entrepreneur Program</li>
+                            <p>The Quebec Entrepreneur classification of Canadian movement was intended to permit qualified entrepreneurs and chiefs the chance to get Canadian lasting living arrangement, gave that they can adequately make or obtain an agrarian, business or modern business in the territory of Quebec.</p>
+                            <li>Provincial Entrepreneur Programs</li>
+                            <p>Canada's territories offer a scope of business visionary classifications inside their Provincial Nominee Programs. Through one of these classifications, migrant business people can settle in a particular territory.</p>
                             </ul>
                         </div>
                         

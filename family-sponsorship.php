@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>OneSource Immigration/Spousal Sponsorship</title>
+<title>OneSource Immigration/Family Sponsorship</title>
 <!-- Stylesheets -->
 <link href="css/bootstrap.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet">
@@ -30,7 +30,7 @@
     <!--Page Title-->
     <section class="page-title" style="background-image:url(images/background/20.jpg)">
     	<div class="auto-container">
-        	<h1>Spousal Sponsorship Program</h1>
+        	<h1>Family Sponsorship Program</h1>
         </div>
     </section>
     <!--End Page Title-->
@@ -72,26 +72,17 @@
                 <div class="content-column col-lg-9 col-md-8 col-sm-12">
                 	<div class="inner-column">
                         <div class="image">
-                        	<img src="images/resource/spousal-sponsorship-3.jpg" alt="" />
+                        	<img src="images/resource/family-sponsorship.jpg" alt="" />
                         </div>
-                        <h2>Canada - Spousal Sponsorship Program</h2>
+                        <h2>Canada - Family Sponsorship Program</h2>
                         <div class="text">
-                        	<p>The Spousal Sponsorship program is a subsection of the Family Class migration classification. Under this program, a Canadian native or lasting occupant may support a companion or custom-based law accomplice for Canadian perpetual habitation</p>
-                            <p>The Spousal Sponsorship program is a subsection of the Family Class migration classification. Under this program, a Canadian native or lasting occupant may support a companion or custom-based law accomplice for Canadian perpetual habitation.</p>
+                        	<p>Family sponsorship is an excellent way for you to bring your family to Canada so that you can enjoy your life together as a family as well as take advantage of all the opportunities that Canada has to offer. Canada is one of the most culturally diverse countries in the world and has one of the highest immigration rates among any other nations. Canada was built on the successful movement of migrants from all over the world who chose this country as their new home and place of residence.  As a result, there was a huge influx of new immigrants that arrived in Canada and this helped shape and create Canada as we know it today.  Family sponsorship in Canada played a vital role in the successful migration of people from around the world and helped create stable family environments for those who wanted to start a new life in Canada. There are two main facets of family sponsorship under the family class in Canada:</p>
+                            
                             <ul class="list-style-four">
-                            <li>Spouse</li>
-                            <li>Common-law Partner</li>
-                            <li>Conjugal Partner</li>
+                                <li>Sponsoring your spouse, conjugal/common law partner and/or your dependent children (including adopted children).</li>
+                                <li>Sponsoring other eligible relatives</li>
                             </ul>
-                            <p>Sponsor also needs to meet few requirements to be eligible to sponsor any member of the family class: </p>
-                            <ul class="list-style-four">
-                                <li>Be at least 18 years of age</li>
-                                <li>Be a Canadian Citizen or Permanent Resident</li>
-                                <li>Must sign an agreement and undertaking</li>
-                                <li>Must not be in default of an undertaking, an immigration loan, a performance bond, or family support payments</li>
-                                <li>Brothers/ sisters/ nephews/ nieces/ grandchildren who are orphans, under the age of 18 and unmarried</li>
-                                <li>Any Relative, if the sponsor is alone in Canada means sponsor has no member of family in Canada or abroad from the above mentioned list.</li>
-                            </ul>
+                            <p>Depending on which member of the family class you are sponsoring, the process will be different.  Our office can ensure that you have all the necessary information you need so that you can decide how you want to go about the sponsorship program.  Our experienced and knowledgeable consultants will assess your personal situation and develop a unique plan tailored to your needs so that your immigration goals can be met and you can be reunited with your family sooner.  We will complete all the paperwork from beginning to end, while providing you with step-by-step updates to ensure that you are aware of exactly what is going on with your case and at what stage the process is in.  Furthermore, our dedicated Toronto immigration consultants will provide you with a timeline of how long your family sponsorship case will take, based on the current processing times set out by the government of Canada.</p>
                         </div>
                         
                     </div>

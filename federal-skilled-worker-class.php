@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>OneSource Immigration/Spousal Sponsorship</title>
+<title>OneSource Immigration/Federal Skilled Worker Class</title>
 <!-- Stylesheets -->
 <link href="css/bootstrap.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet">
@@ -20,17 +20,18 @@
 
 <body>
     <div class="page-wrapper">
-    
+ 	
     <!-- Main Header / Header Style One-->
     <?php
         include "include-header.html";
     ?>
     <!--End Main Header -->
+
     
     <!--Page Title-->
     <section class="page-title" style="background-image:url(images/background/20.jpg)">
     	<div class="auto-container">
-        	<h1>Spousal Sponsorship Program</h1>
+        	<h1>Federal Skilled Worker Program</h1>
         </div>
     </section>
     <!--End Page Title-->
@@ -72,26 +73,30 @@
                 <div class="content-column col-lg-9 col-md-8 col-sm-12">
                 	<div class="inner-column">
                         <div class="image">
-                        	<img src="images/resource/spousal-sponsorship-3.jpg" alt="" />
+                        	<img src="images/resource/company-4.jpg" alt="" />
                         </div>
-                        <h2>Canada - Spousal Sponsorship Program</h2>
+                        <h2>Canada - Federal Skilled Worker Class Program (FSWP)</h2>
                         <div class="text">
-                        	<p>The Spousal Sponsorship program is a subsection of the Family Class migration classification. Under this program, a Canadian native or lasting occupant may support a companion or custom-based law accomplice for Canadian perpetual habitation</p>
-                            <p>The Spousal Sponsorship program is a subsection of the Family Class migration classification. Under this program, a Canadian native or lasting occupant may support a companion or custom-based law accomplice for Canadian perpetual habitation.</p>
+                        	<p>This program is for those individuals that are selected under the Federal Skilled Workers Program (FSWP) category. Successful candidates under this category primarily demonstrate the ability integrate well into Canadian society and make a meaningful contribution to our economy.  If you have the skills and knowledge to perform well at your occupation and you can demonstrate that you will be able to settle down in Canada with ease, then this is the category of immigration that you should apply under.</p>
+                            <h4><b>Minimum Eligibility Criteria</b></h4>
+                            <p>Other nationals may start the procedure of migration under the Federal
+                            Skilled Worker Program by deciding if they meet the base prerequisites of the program. The bare
+                            necessities are:</p>
                             <ul class="list-style-four">
-                            <li>Spouse</li>
-                            <li>Common-law Partner</li>
-                            <li>Conjugal Partner</li>
+                            <li>One year of persistent full-time or equal paid work involvement in the previous 10 years in a gifted occupation grouped under the National Occupational Classification (NOC) aptitude level 0, An or B; </li>
+                            <li>Approved language capacity identical to Canadian Language Benchmark (CLB) 7 in English or French
+                            overall capacities (perusing, composing, tuning in, and talking); and</li>
+                            <li>Canadian instructive qualification (testament, recognition, or degree) or outside certification and
+                            Educational Credential Assessment (ECA) report.</li>
                             </ul>
-                            <p>Sponsor also needs to meet few requirements to be eligible to sponsor any member of the family class: </p>
-                            <ul class="list-style-four">
-                                <li>Be at least 18 years of age</li>
-                                <li>Be a Canadian Citizen or Permanent Resident</li>
-                                <li>Must sign an agreement and undertaking</li>
-                                <li>Must not be in default of an undertaking, an immigration loan, a performance bond, or family support payments</li>
-                                <li>Brothers/ sisters/ nephews/ nieces/ grandchildren who are orphans, under the age of 18 and unmarried</li>
-                                <li>Any Relative, if the sponsor is alone in Canada means sponsor has no member of family in Canada or abroad from the above mentioned list.</li>
-                            </ul>
+                            <!-- TODO - Fix the <li> block-->
+                            <p>IRCC decides competitors' qualification for the Federal Skilled Worker Program dependent on its interesting focuses network. In any case, just the most noteworthy positioned competitors in the Express Entry pool are issued solicitations to apply for Canadian changeless home.</p>
+                            <p>Applicant profiles in the Express Entry pool, which likewise incorporates Federal Skilled Trades and Canadian Experience Class hopefuls, are positioned dependent on the CRS. </p>
+                            <p>So as to be qualified to apply under the Federal Skilled Worker Program, the people who are capable
+                            must meet the bare necessities for work, language capacity, training and acquire somewhere around 67
+                            under the program's 100-point matrix. The program's choice variables network surveys competitors
+                            dependent on components that incorporate age, training, work involvement, masterminded business,
+                            language capacity, and flexibility.</p>
                         </div>
                         
                     </div>

@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>OneSource Immigration/Spousal Sponsorship</title>
+<title>OneSource Immigration/Visitor Visa</title>
 <!-- Stylesheets -->
 <link href="css/bootstrap.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet">
@@ -30,7 +30,7 @@
     <!--Page Title-->
     <section class="page-title" style="background-image:url(images/background/20.jpg)">
     	<div class="auto-container">
-        	<h1>Spousal Sponsorship Program</h1>
+        	<h1>Visitor Visa</h1>
         </div>
     </section>
     <!--End Page Title-->
@@ -72,16 +72,17 @@
                 <div class="content-column col-lg-9 col-md-8 col-sm-12">
                 	<div class="inner-column">
                         <div class="image">
-                        	<img src="images/resource/spousal-sponsorship-3.jpg" alt="" />
+                        	<img src="images/resource/company-4.jpg" alt="" />
                         </div>
-                        <h2>Canada - Spousal Sponsorship Program</h2>
+                        <h2>Canada - Visitor Visa</h2>
                         <div class="text">
-                        	<p>The Spousal Sponsorship program is a subsection of the Family Class migration classification. Under this program, a Canadian native or lasting occupant may support a companion or custom-based law accomplice for Canadian perpetual habitation</p>
-                            <p>The Spousal Sponsorship program is a subsection of the Family Class migration classification. Under this program, a Canadian native or lasting occupant may support a companion or custom-based law accomplice for Canadian perpetual habitation.</p>
+                        	<p>Canada is a country having ever welcoming people and safe environment, a real example of Unity in Diversity. If you want to see people from almost every part of the world living at one place in a peaceful and friendly way, you should visit..</p>
+                            <p>To obtain Visitor Visa / Temporary Resident Visa (TRV), you would require</p>
                             <ul class="list-style-four">
-                            <li>Spouse</li>
-                            <li>Common-law Partner</li>
-                            <li>Conjugal Partner</li>
+                            <li>A valid passport</li>
+                            <li>Enough funds to manage the expenses of yourself and your family members in canada and to return back to your country</li>
+                            <li>To justify your Purpose of Visit: An Invitation Letter from family/ friend in canada.</li>
+                            <li>To convince Visa Officer that you will definitely come back to your country at the end of your visit : To prove this you have to show : Back Home Ties: Assets, Employment and family in home country.</li>
                             </ul>
                             <p>Sponsor also needs to meet few requirements to be eligible to sponsor any member of the family class: </p>
                             <ul class="list-style-four">
@@ -93,7 +94,6 @@
                                 <li>Any Relative, if the sponsor is alone in Canada means sponsor has no member of family in Canada or abroad from the above mentioned list.</li>
                             </ul>
                         </div>
-                        
                     </div>
                 </div>
                 

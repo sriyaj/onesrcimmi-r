@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>OneSource Immigration/Spousal Sponsorship</title>
+<title>OneSource Immigration/Citizenship</title>
 <!-- Stylesheets -->
 <link href="css/bootstrap.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet">
@@ -20,17 +20,18 @@
 
 <body>
     <div class="page-wrapper">
-    
+ 	
     <!-- Main Header / Header Style One-->
     <?php
         include "include-header.html";
     ?>
     <!--End Main Header -->
+
     
     <!--Page Title-->
     <section class="page-title" style="background-image:url(images/background/20.jpg)">
     	<div class="auto-container">
-        	<h1>Spousal Sponsorship Program</h1>
+        	<h1>Citizenship</h1>
         </div>
     </section>
     <!--End Page Title-->
@@ -72,25 +73,20 @@
                 <div class="content-column col-lg-9 col-md-8 col-sm-12">
                 	<div class="inner-column">
                         <div class="image">
-                        	<img src="images/resource/spousal-sponsorship-3.jpg" alt="" />
+                        	<img src="images/resource/company-4.jpg" alt="" />
                         </div>
-                        <h2>Canada - Spousal Sponsorship Program</h2>
+                        <h2>Canada - Citizenship</h2>
                         <div class="text">
-                        	<p>The Spousal Sponsorship program is a subsection of the Family Class migration classification. Under this program, a Canadian native or lasting occupant may support a companion or custom-based law accomplice for Canadian perpetual habitation</p>
-                            <p>The Spousal Sponsorship program is a subsection of the Family Class migration classification. Under this program, a Canadian native or lasting occupant may support a companion or custom-based law accomplice for Canadian perpetual habitation.</p>
+                        	<p>The ultimate goal of Immigration is to be a Citizen of your dream country. Bill C-6 has finally received Royal Assent and became Law on June 19, 2017 , amending Canada’s Citizenship Act. The new law is helping thousands of Permanent Residents of Canada and their families to fulfil their dream to become Canadian Citizen. Now, they can apply for citizenship sooner.</p>
+                            <p>In order to be eligible for the Canada Investor Visa Program, the applicant must:</p>
+                            <p>Permanent Residents of Canada must meet few conditions to be eligible to apply for Canadian Citizenship. New conditions are:</p>
                             <ul class="list-style-four">
-                            <li>Spouse</li>
-                            <li>Common-law Partner</li>
-                            <li>Conjugal Partner</li>
-                            </ul>
-                            <p>Sponsor also needs to meet few requirements to be eligible to sponsor any member of the family class: </p>
-                            <ul class="list-style-four">
-                                <li>Be at least 18 years of age</li>
-                                <li>Be a Canadian Citizen or Permanent Resident</li>
-                                <li>Must sign an agreement and undertaking</li>
-                                <li>Must not be in default of an undertaking, an immigration loan, a performance bond, or family support payments</li>
-                                <li>Brothers/ sisters/ nephews/ nieces/ grandchildren who are orphans, under the age of 18 and unmarried</li>
-                                <li>Any Relative, if the sponsor is alone in Canada means sponsor has no member of family in Canada or abroad from the above mentioned list.</li>
+                                <li>Residency Requirement</li>
+                                <li>Applicants between 18 and 54 years must pass the Citizenship Test.</li>
+                                <li>Applicants between 18 and 54 years must meet the language requirements for citizenship: English or French skills (Listening and Speaking).</li>
+                                <li>Must file Canadian income taxes, for three out of five years, matching the new physical presence requirement.</li>
+                                <li>Minors can now apply for citizenship without a Canadian parent, as the age requirement for citizenship has been removed.</li>
+                                <li>Must have a clean record.</li>
                             </ul>
                         </div>
                         

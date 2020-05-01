@@ -19,124 +19,14 @@
 </head>
 
 <body>
-<div class="page-wrapper">
- 	
+    <div class="page-wrapper">
     <!-- Preloader -->
     <div class="preloader"></div>
  	
     <!-- Main Header / Header Style One-->
-    <header class="main-header header-style-one">
-    	
-        <!--Header-Upper-->
-        <div class="header-upper">
-        	<div class="clearfix">
-                	
-                <div class="pull-left logo-outer">
-                    <div class="logo"><a href="index.html"><img src="images/logo.png" alt="" title=""></a></div>
-                </div>
-                
-                <div class="pull-right upper-right clearfix">
-                    
-                    <div class="nav-outer clearfix">
-                		<!-- Main Menu -->
-                        <nav class="main-menu">
-                            <div class="navbar-header">
-                                <!-- Toggle Button -->    	
-                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                                    <span class="icon-bar"></span>
-                                    <span class="icon-bar"></span>
-                                    <span class="icon-bar"></span>
-                                </button>
-                            </div>
-                            
-                            <div class="navbar-collapse collapse clearfix">
-                                <ul class="navigation clearfix">
-                                    <li class="dropdown"><a href="#">Home</a>
-                                        <ul>
-                                            <li><a href="index.html">Home 01</a></li>
-                                            <li><a href="index-2.html">Home 02</a></li>
-                                            <li><a href="index-3.html">Home 03</a></li>
-                                            <li><a href="index-4.html">Home 04</a></li>
-                                            <li><a href="index-5.html">Home 05</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="dropdown"><a href="#">About us</a>
-                                        <ul>
-                                            <li class="dropdown"><a href="#">About Us</a>
-                                                <ul>
-                                                    <li><a href="about.html">About Us 1</a></li>
-                                                    <li><a href="about-2.html">About Us 2</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="federal-skilled-worker-class.php">Comapany Overview</a></li>
-                                            <li><a href="company-history.html">Company History</a></li>
-                                            <li><a href="careers.html">Careers</a></li>
-                                            <li><a href="partners.html">Our Partners</a></li>
-                                            <li><a href="testimonials.html">Testimonials</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="dropdown"><a href="#">Services</a>
-                                        <ul>
-                                            <li><a href="service-1.html">services Style 01</a></li>
-                                            <li><a href="service-2.html">services Style 02</a></li>
-                                            <li><a href="finance-planing.html">Finance Planning</a></li>
-                                            <li><a href="investment-plans.html">Investment Planning</a></li>
-                                            <li><a href="funds.html">Mutual Fund</a></li>
-                                            <li><a href="insurance.html">Personal Insurance</a></li>
-                                            <li><a href="market-analysis.html">Market Research</a></li>
-                                            <li><a href="business-analysis.html">Business Analysis</a></li>
-
-                                        </ul>
-                                    </li>
-                                    <li class="dropdown"><a href="#">Cases</a>
-                                        <ul>
-                                            <li><a href="cases-1.html">Cases 03 Column</a></li>
-                                            <li><a href="all-services.html">Cases 04 Column</a></li><li><a href="http://localhost/rabinos/cases-fullwidth.html">Cases Fullwidth</a></li>
-                                            <li><a href="cases-detail.html">Case Details Page</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="dropdown"><a href="#">Pages</a>
-                                        <ul>
-                                            <li><a href="not-found.html">404 page</a></li>
-                                            <!--<li><a href="comming-soon.html">Coming Soon page</a></li>-->
-                                            <li><a href="faq.php">Faqs</a></li>
-                                            <li><a href="team.html">Our Team</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="current dropdown"><a href="#">Blog</a>
-                                        <ul>
-                                            <li><a href="blog.html">Blog with sidebar</a></li>
-                                            <li><a href="blog-2-column.html">Blog 2 column</a></li>
-                                            <li><a href="blog-without-sidebar.html">Blog without sidebar</a></li>
-                                            <li><a href="blog-detail.html">Blog details</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="dropdown"><a href="#">contact</a>
-                                        <ul>
-                                            <li><a href="contact.html">Contact us 1</a></li>
-                                            <li><a href="contact-2.html">Contact us 2</a></li>
-                                            <li><a href="assessment-form.html">Contact us 3</a></li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </div>
-                        </nav>
-                        
-                        <!-- Main Menu End-->
-                        <div class="outer-box">
-                            <!--Search Box-->
-
-                            <div class="number">+1 (416) 704-3632</div>
-                        </div>
-            		</div>
-                    
-                </div>
-                    
-            </div>
-        </div>
-        <!--End Header Upper-->
-        
-    </header>
+    <?php
+        include "include-header.php";
+    ?>
     <!--End Main Header -->
     
     <!--Page Title-->

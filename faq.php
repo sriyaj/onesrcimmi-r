@@ -20,10 +20,12 @@
 
 <body>
     <div class="page-wrapper">
-    
+    <!-- Preloader -->
+    <div class="preloader"></div>
+ 	
     <!-- Main Header / Header Style One-->
     <?php
-        include "include-header.html";
+        include "include-header.php";
     ?>
     <!--End Main Header -->
     

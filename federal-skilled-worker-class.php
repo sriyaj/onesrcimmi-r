@@ -22,8 +22,8 @@
     <div class="page-wrapper">
  	
     <!-- Main Header / Header Style One-->
-    <?php
-        include "include-header.html";
+<?php
+        include "include-header.php";
     ?>
     <!--End Main Header -->
 

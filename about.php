@@ -120,13 +120,12 @@
     	<div class="auto-container">
         	<h2>Planning to immigrate to canada</h2>
             <div class="text">We can assist you in four different languages.<br>
-                 <h3><b>ਪੰਜਾਬੀ &nbsp اردو &nbsp हिन्दी &nbsp English</b>
-                </b></h3>
+                 <h3><b>ਪੰਜਾਬੀ &nbsp اردو &nbsp हिन्दी &nbsp English</b></h3>
                  Approach us for all your immigration needs<br>
 
             <!--<div class="text">We help you explore the various possibilities to settle in Canada.<br>Approach us for all your immigration needs<br>-->
-                <span class="icon flaticon-phone-call"></span><b>+1 (416) 704-3632 <br>               
-                <span class="icon flaticon-note"></span>&nbsp <b>info@onesourceimmigration.com
+                <span class="icon flaticon-phone-call"></span><b>+1 (416) 704-3632</b> <br>               
+                <span class="icon flaticon-note"></span>&nbsp <b>info@onesourceimmigration.com</b>
             </div>
         </div>
     </section>

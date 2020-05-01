@@ -111,11 +111,9 @@ The Provincial Nominee Programs (PNP) allows Canadian provinces and territories 
     
     <!--Main Footer-->
     <?php
-        include "include-footer.html";
+        include "include-footer.php";
     ?>
-    
-</div>
-<!--End pagewrapper-->
+  <!--End pagewrapper-->
 
 <!--Scroll to top-->
 <div class="scroll-to-top scroll-to-target" data-target="html"><span class="icon fa fa-angle-double-up"></span></div>

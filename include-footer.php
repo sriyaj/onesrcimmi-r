@@ -1,14 +1,5 @@
-<!DOCTYPE html>
-<html>
-<body>
-<div class="page-wrapper">
- 	
-     <!--Services Single Section-->
-    <section class="services-single-section">
-    </section>
-    <!--End Career Section-->
-    
-    <!--Main Footer-->
+
+<!--Main Footer-->
     <footer class="main-footer">
 		<div class="auto-container">
         
@@ -139,18 +130,4 @@
 </div>
 <!--End pagewrapper-->
 
-<!--Scroll to top-->
-<div class="scroll-to-top scroll-to-target" data-target="html"><span class="icon fa fa-angle-double-up"></span></div>
 
-<script src="js/jquery.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/jquery.fancybox.js"></script>
-<script src="js/jquery-ui.js"></script>
-<script src="js/owl.js"></script>
-<script src="js/appear.js"></script>
-<script src="js/mixitup.js"></script>
-<script src="js/validate.js"></script>
-<script src="js/wow.js"></script>
-<script src="js/script.js"></script>
-</body>
-</html>

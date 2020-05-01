@@ -183,7 +183,7 @@
     <!--End Faq Section-->
     
     <?php
-        include "include-footer.html";
+        include "include-footer.php";
     ?>
 
 </div>

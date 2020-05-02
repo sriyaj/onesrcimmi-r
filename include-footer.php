@@ -95,6 +95,7 @@
                                         <div class="logo">
                                             <a href="index.html"><img src="images/iccrc-logo.jpg" alt="" /></a>
                                         </div>
+                                        <br>
                                         <ul class="social-icon-two">
                                             <li><a href="https://www.facebook.com/nikitamehra1121/"><span class="fa fa-facebook"></span></a></li>
                                             <li><a href="#"><span class="fa fa-linkedin"></span></a></li>

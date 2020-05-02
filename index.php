@@ -162,7 +162,7 @@
                 <ul>
                     
                     <li data-description="Slide Description" data-easein="default" data-easeout="default" data-fsmasterspeed="1500" data-fsslotamount="7" data-fstransition="fade" data-hideafterloop="0" data-hideslideonmobile="off" data-index="rs-1690" data-masterspeed="default" data-param1="" data-param10="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-rotate="0" data-saveperformance="off" data-slotamount="default" data-thumb="images/main-slider/image-29.jpg" data-title="Slide Title" data-transition="parallaxvertical">
-                    <img alt="" class="rev-slidebg" data-bgfit="cover" data-bgparallax="10" data-bgposition="center center" data-bgrepeat="no-repeat" data-no-retina="" src="images/main-slider/image-29.jpg"> 
+                    <img alt="" class="rev-slidebg" data-bgfit="cover" data-bgparallax="10" data-bgposition="center center" data-bgrepeat="no-repeat" data-no-retina="" src="images/main-slider/index-cover-1.jpg"> 
                     
                     <div class="tp-caption" 
                     data-paddingbottom="[0,0,0,0]"
@@ -228,7 +228,7 @@
                     </li>
                     
                     <li data-description="Slide Description" data-easein="default" data-easeout="default" data-fsmasterspeed="1500" data-fsslotamount="7" data-fstransition="fade" data-hideafterloop="0" data-hideslideonmobile="off" data-index="rs-1689" data-masterspeed="default" data-param1="" data-param10="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-rotate="0" data-saveperformance="off" data-slotamount="default" data-thumb="images/main-slider/image-27.jpg" data-title="Slide Title" data-transition="parallaxvertical">
-                    <img alt="" class="rev-slidebg" data-bgfit="cover" data-bgparallax="10" data-bgposition="center center" data-bgrepeat="no-repeat" data-no-retina="" src="images/main-slider/image-27.jpg"> 
+                    <img alt="" class="rev-slidebg" data-bgfit="cover" data-bgparallax="10" data-bgposition="center center" data-bgrepeat="no-repeat" data-no-retina="" src="images/main-slider/index-cover-3.jpg"> 
                     
                     <div class="tp-caption" 
                     data-paddingbottom="[0,0,0,0]"
@@ -292,7 +292,7 @@
                     </li>
                     
                     <li data-description="Slide Description" data-easein="default" data-easeout="default" data-fsmasterspeed="1500" data-fsslotamount="7" data-fstransition="fade" data-hideafterloop="0" data-hideslideonmobile="off" data-index="rs-1687" data-masterspeed="default" data-param1="" data-param10="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-rotate="0" data-saveperformance="off" data-slotamount="default" data-thumb="images/main-slider/image-28.jpg" data-title="Slide Title" data-transition="parallaxvertical">
-                    <img alt="" class="rev-slidebg" data-bgfit="cover" data-bgparallax="10" data-bgposition="center center" data-bgrepeat="no-repeat" data-no-retina="" src="images/main-slider/image-28.jpg"> 
+                    <img alt="" class="rev-slidebg" data-bgfit="cover" data-bgparallax="10" data-bgposition="center center" data-bgrepeat="no-repeat" data-no-retina="" src="images/main-slider/index-cover-2.jpg"> 
                     
                     <div class="tp-caption" 
                     data-paddingbottom="[0,0,0,0]"
@@ -398,45 +398,7 @@
     <!--End Video Section-->
     
     <!--Services Section Two-->
-    <section class="services-section-two style-three">
-         <div class="auto-container">
-            <div class="row clearfix">
-                <!--Services Block Two-->
-                <div class="services-block-two col-md-4 col-sm-6 col-xs-12">
-                    <div class="inner-box">
-                        <div class="icon-box">
-                            <span class="icon flaticon-money-bag-1"></span>
-                        </div>
-                        <h3><a href="market-analysis.html">Step 1</a></h3>
-                        <div class="text">Fill the online assessment to help us get a better understanding of your profile and current status.</div>
-                    </div>
-                </div>
-                
-                <!--Services Block Two-->
-                <div class="services-block-two col-md-4 col-sm-6 col-xs-12">
-                    <div class="inner-box">
-                        <div class="icon-box">
-                            <span class="icon flaticon-bar-chart"></span>
-                        </div>
-                        <h3><a href="market-analysis.html">Step 2 </a></h3>
-                        <div class="text">Call us to book an appointment to further have a detailed discussion about your requirements.</div>
-                    </div>
-                </div>
-                
-                <!--Services Block Two-->
-                <div class="services-block-two col-md-4 col-sm-6 col-xs-12">
-                    <div class="inner-box">
-                        <div class="icon-box">
-                            <span class="icon flaticon-cogwheel"></span>
-                        </div>
-                        <h3><a href="market-analysis.html">step 3</a></h3>
-                        <div class="text">Navigating you through the step by step process after giving you a clear understanding of the process</div>
-                    </div>
-                </div>
-                
-            </div>
-        </div>
-    </section>
+    
     <!--End Services Section Two-->
     
     <section class="services-section-eleven">
@@ -863,12 +825,12 @@
     <!--End News Section-->
     
     <!--Clients Section-->
-   <!-- <section class="clients-section alternate">
+    <section class="clients-section alternate">
         <div class="auto-container">
             
-            <div class="sponsors-outer">-->
+            <div class="sponsors-outer">
                 <!--Sponsors Carousel-->
-                <!--<ul class="sponsors-carousel owl-carousel owl-theme">
+                <ul class="sponsors-carousel owl-carousel owl-theme">
                     <li class="slide-item"><figure class="image-box"><a href="#"><img src="images/clients/1.png" alt=""></a></figure></li>
                     <li class="slide-item"><figure class="image-box"><a href="#"><img src="images/clients/2.png" alt=""></a></figure></li>
                     <li class="slide-item"><figure class="image-box"><a href="#"><img src="images/clients/7.png" alt=""></a></figure></li>
@@ -883,7 +845,7 @@
             </div>
             
         </div>
-    </section>-->
+    </section>
     <!--End Clients Section-->
     <!--Testimonial Section-->
     

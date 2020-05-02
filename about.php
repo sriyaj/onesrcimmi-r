@@ -31,13 +31,9 @@
     <!--End Main Header -->
     
     <!--Page Title-->
-    <section class="page-title" style="background-image:url(images/background/20.jpg)">
+    <section class="page-title" style="background-image:url(images/background/about.jpg)">
     	<div class="auto-container">
-        	<h1>About Us</h1>
-            <ul class="page-breadcrumb">
-            	<li><a href="index.html">Home</a></li>
-                <li>About Us</li>
-            </ul>
+        	<div class="about-us">About Us</div>
         </div>
     </section>
     <!--End Page Title-->

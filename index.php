@@ -23,28 +23,28 @@
 
 <body>
 <div class="page-wrapper">
- 	
+     
     <!-- Preloader -->
     <div class="preloader"></div>
- 	
+     
     <!-- Main Header / Header Style Three-->
     <header class="main-header header-style-three">
     
-    	<!-- Header Top -->
-    	<div class="header-top style-four">
-        	<div class="auto-container">
-            	<div class="clearfix">
+        <!-- Header Top -->
+        <div class="header-top style-four">
+            <div class="auto-container">
+                <div class="clearfix">
                     
                     <!--Top Left-->
                     <div class="top-left">
-                    	<ul class="links clearfix">
-                        	<li><span class="icon flaticon-note"></span>&nbsp info@onesourceimmigration.com </li>
+                        <ul class="links clearfix">
+                            <li><span class="icon flaticon-note"></span>&nbsp info@onesourceimmigration.com </li>
                         </ul>
                     </div>
                     
                     <!--Top Right-->
                     <div class="top-right clearfix">
-                    	<div class="number">
+                        <div class="number">
 
                             <span class="icon flaticon-phone-call"></span>&nbsp Consultation : <span>+1 (416) 704-3632</span></div>
                         <!--Language-->
@@ -58,9 +58,9 @@
         </div>
         <!-- Header Top End -->
         
-    	<!--Header-Upper-->
+        <!--Header-Upper-->
         <div class="header-upper">
-        	<div class="auto-container">
+            <div class="auto-container">
                 <div class="header-upper-inner clearfix">
                     <div class="pull-left logo-outer">
                         <div class="logo"><a href="index.html"><img src="images/logo.png" alt="" title=""></a></div>
@@ -72,7 +72,7 @@
                             <!-- Main Menu -->
                             <nav class="main-menu">
                                 <div class="navbar-header">
-                                    <!-- Toggle Button -->    	
+                                    <!-- Toggle Button -->        
                                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                                     <span class="icon-bar"></span>
                                     <span class="icon-bar"></span>
@@ -156,11 +156,11 @@
     
     <!--Main Slider-->
     <section class="main-slider">
-    	
+        
         <div class="rev_slider_wrapper fullwidthbanner-container"  id="rev_slider_eight_wrapper" data-source="gallery">
             <div class="rev_slider fullwidthabanner" id="rev_slider_eight" data-version="5.4.1">
                 <ul>
-                	
+                    
                     <li data-description="Slide Description" data-easein="default" data-easeout="default" data-fsmasterspeed="1500" data-fsslotamount="7" data-fstransition="fade" data-hideafterloop="0" data-hideslideonmobile="off" data-index="rs-1690" data-masterspeed="default" data-param1="" data-param10="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-rotate="0" data-saveperformance="off" data-slotamount="default" data-thumb="images/main-slider/image-29.jpg" data-title="Slide Title" data-transition="parallaxvertical">
                     <img alt="" class="rev-slidebg" data-bgfit="cover" data-bgparallax="10" data-bgposition="center center" data-bgrepeat="no-repeat" data-no-retina="" src="images/main-slider/image-29.jpg"> 
                     
@@ -180,7 +180,7 @@
                     data-y="['middle','middle','middle','middle']"
                     data-textalign="['top','top','top','top']"
                     data-frames='[{"from":"x:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
-                    	<h2>The one source
+                        <h2>The one source
                             
         <br> for all your<br> <span class="alternate">Immigration needs</span></h2>
                     </div>
@@ -201,7 +201,7 @@
                     data-y="['middle','middle','middle','middle']"
                     data-textalign="['top','top','top','top']"
                     data-frames='[{"from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
-                    	<div class="text">We provide best immigration consultation and services, helping you to settle faster. Call us to book an appointment. </div>
+                        <div class="text">We provide best immigration consultation and services, helping you to settle faster. Call us to book an appointment. </div>
                     </div>
                     
                     <div class="tp-caption tp-resizeme" 
@@ -229,7 +229,7 @@
                     
                     <li data-description="Slide Description" data-easein="default" data-easeout="default" data-fsmasterspeed="1500" data-fsslotamount="7" data-fstransition="fade" data-hideafterloop="0" data-hideslideonmobile="off" data-index="rs-1689" data-masterspeed="default" data-param1="" data-param10="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-rotate="0" data-saveperformance="off" data-slotamount="default" data-thumb="images/main-slider/image-27.jpg" data-title="Slide Title" data-transition="parallaxvertical">
                     <img alt="" class="rev-slidebg" data-bgfit="cover" data-bgparallax="10" data-bgposition="center center" data-bgrepeat="no-repeat" data-no-retina="" src="images/main-slider/image-27.jpg"> 
-					
+                    
                     <div class="tp-caption" 
                     data-paddingbottom="[0,0,0,0]"
                     data-paddingleft="[0,0,0,0]"
@@ -246,7 +246,7 @@
                     data-y="['middle','middle','middle','middle']"
                     data-textalign="['top','top','top','top']"
                     data-frames='[{"from":"x:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
-                    	<h2>Get guarantte success with our <span class="alternate">advisors</span></h2>
+                        <h2>Get guarantte success with our <span class="alternate">advisors</span></h2>
                     </div>
                     
                     <div class="tp-caption" 
@@ -265,7 +265,7 @@
                     data-y="['middle','middle','middle','middle']"
                     data-textalign="['top','top','top','top']"
                     data-frames='[{"from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
-                    	<div class="text">Rabinos is one of the world’s top business consulting firms. We help global leaders with their organization's most critical issues.</div>
+                        <div class="text">Rabinos is one of the world’s top business consulting firms. We help global leaders with their organization's most critical issues.</div>
                     </div>
                     
                     <div class="tp-caption tp-resizeme" 
@@ -284,8 +284,8 @@
                     data-y="['middle','middle','middle','middle']"
                     data-textalign="['top','top','top','top']"
                     data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
-                    	<div class="btns-box">
-                        	<a href="about.html" class="theme-btn btn-style-two">Request a call back</a>
+                        <div class="btns-box">
+                            <a href="about.html" class="theme-btn btn-style-two">Request a call back</a>
                         </div>
                     </div>
                     
@@ -310,7 +310,7 @@
                     data-y="['middle','middle','middle','middle']"
                     data-textalign="['top','top','top','top']"
                     data-frames='[{"from":"x:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
-                    	<h2>A big apportunity <br> for your business <span class="alternate">growth</span></h2>
+                        <h2>A big apportunity <br> for your business <span class="alternate">growth</span></h2>
                     </div>
                     
                     <div class="tp-caption" 
@@ -329,7 +329,7 @@
                     data-y="['middle','middle','middle','middle']"
                     data-textalign="['top','top','top','top']"
                     data-frames='[{"from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
-                    	<div class="text">Rabinos is one of the world’s top business consulting firms. We help global leaders with their organization's most critical issues.</div>
+                        <div class="text">Rabinos is one of the world’s top business consulting firms. We help global leaders with their organization's most critical issues.</div>
                     </div>
                     
                     <div class="tp-caption tp-resizeme" 
@@ -348,8 +348,8 @@
                     data-y="['middle','middle','middle','middle']"
                     data-textalign="['top','top','top','top']"
                     data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
-                    	<div class="btns-box">
-                        	<a href="about.html" class="theme-btn btn-style-two">Request a call back</a>
+                        <div class="btns-box">
+                            <a href="about.html" class="theme-btn btn-style-two">Request a call back</a>
                         </div>
                     </div>
                     
@@ -363,16 +363,16 @@
     
     <!--Video Section-->
     <section class="video-section style-three">
-    	<div class="auto-container">
-        	<div class="row clearfix">
-            	
+        <div class="auto-container">
+            <div class="row clearfix">
+                
                 <!--Content Column-->
                 <div class="content-column col-md-6 col-sm-12 col-xs-12">
-                	<div class="inner-column">
-                    	<h2>We bring your dreams true  <br> </h2>
+                    <div class="inner-column">
+                        <h2>We bring your dreams true  <br> </h2>
                         <div class="text">We are a Canadian Immigration Consultancy located in Toronto.In practice for more than ,we can help you to figure out the best immigration option.Our professional and personalised approach will certainly give you the comfort and trust to walk with us till your goal is acheived.. Top reasons to choose us </div>
                         <ul class="list-style-three">
-                        	<li>Affordable evaluation</li>
+                            <li>Affordable evaluation</li>
                             <li>Personalised Service</li>
                             <li>Professionalism</li>
                             <li>High chances for Sucess</li>
@@ -382,8 +382,8 @@
                 
                 <!--Video Column-->
                 <div class="video-column col-md-6 col-sm-12 col-xs-12">
-                	<div class="inner-column">
-                    	<div class="video-box-two">
+                    <div class="inner-column">
+                        <div class="video-box-two">
                             <figure class="image">
                                 <img src="images/resource/video-img-2.jpg" alt="">
                                 <a href="https://www.youtube.com/watch?v=kxPCFljwJws" class="lightbox-image overlay-box"><span class="flaticon-arrow"></span><div class="ripple"></div></a>
@@ -398,14 +398,14 @@
     <!--End Video Section-->
     
     <!--Services Section Two-->
-   <section class="services-section-two style-three">
-    	<div class="auto-container">
-        	<div class="row clearfix">
-    <!--Services Block Two-->
+    <section class="services-section-two style-three">
+         <div class="auto-container">
+            <div class="row clearfix">
+                <!--Services Block Two-->
                 <div class="services-block-two col-md-4 col-sm-6 col-xs-12">
-                	<div class="inner-box">
-                    	<div class="icon-box">
-                        	<span class="icon flaticon-money-bag-1"></span>
+                    <div class="inner-box">
+                        <div class="icon-box">
+                            <span class="icon flaticon-money-bag-1"></span>
                         </div>
                         <h3><a href="market-analysis.html">Step 1</a></h3>
                         <div class="text">Fill the online assessment to help us get a better understanding of your profile and current status.</div>
@@ -414,9 +414,9 @@
                 
                 <!--Services Block Two-->
                 <div class="services-block-two col-md-4 col-sm-6 col-xs-12">
-                	<div class="inner-box">
-                    	<div class="icon-box">
-                        	<span class="icon flaticon-bar-chart"></span>
+                    <div class="inner-box">
+                        <div class="icon-box">
+                            <span class="icon flaticon-bar-chart"></span>
                         </div>
                         <h3><a href="market-analysis.html">Step 2 </a></h3>
                         <div class="text">Call us to book an appointment to further have a detailed discussion about your requirements.</div>
@@ -425,9 +425,9 @@
                 
                 <!--Services Block Two-->
                 <div class="services-block-two col-md-4 col-sm-6 col-xs-12">
-                	<div class="inner-box">
-                    	<div class="icon-box">
-                        	<span class="icon flaticon-cogwheel"></span>
+                    <div class="inner-box">
+                        <div class="icon-box">
+                            <span class="icon flaticon-cogwheel"></span>
                         </div>
                         <h3><a href="market-analysis.html">step 3</a></h3>
                         <div class="text">Navigating you through the step by step process after giving you a clear understanding of the process</div>
@@ -440,13 +440,13 @@
     <!--End Services Section Two-->
     
     <section class="services-section-eleven">
-    	<div class="auto-container">
-        	<div class="sec-title-two">
-            	<h2>Our Services</h2>
+        <div class="auto-container">
+            <div class="sec-title-two">
+                <h2>Our Services</h2>
                 <div class="text"> We can help you with the process your application in all of the immigration categories may it be Express Entry, Family and Spousal Sponsorship, Study Visa’s or Visitor Visa’s.</div>
             </div>
             <div class="servics-four-item-carousel owl-carousel owl-theme">
-            	
+                
                 <!--Services Block-->
                 <div class="services-block-nine">
                     <div class="inner-box">
@@ -612,21 +612,20 @@
         </div>
     </section>
     <section class="call-to-action-section" style="background-image:url(images/background/8.jpg)">
-    	<div class="auto-container">
-        	<h2>Planning to immigrate to canada</h2>
+        <div class="auto-container">
+            <h2>Planning to immigrate to canada</h2>
             <div class="text">We can assist you in four different languages.<br>
-                 <h3><b>ਪੰਜਾਬੀ &nbsp اردو &nbsp हिन्दी &nbsp English</b>
-                </b></h3>
+                 <h3><b>ਪੰਜਾਬੀ &nbsp اردو &nbsp हिन्दी &nbsp English</b></h3>
                  Approach us for all your immigration needs<br>
 
             <!--<div class="text">We help you explore the various possibilities to settle in Canada.<br>Approach us for all your immigration needs<br>-->
-                <span class="icon flaticon-phone-call"></span><b>+1 (416) 704-3632 <br>               
-                <span class="icon flaticon-note"></span>&nbsp <b>info@onesourceimmigration.com
+                <span class="icon flaticon-phone-call"></span><b>+1 (416) 704-3632 </b><br>               
+                <span class="icon flaticon-note"></span>&nbsp <b>info@onesourceimmigration.com</b>
             </div>
 
            <!-- <div class="number-box clearfix">
                 <div class="pull-left">
-                	<div class="number">+1 (416) 704-3632</div>
+                    <div class="number">+1 (416) 704-3632</div>
                 </div>
                 <div class="pull-right">
                     <a href="contact.html" class="theme-btn btn-style-one">View all services</a>
@@ -812,12 +811,12 @@
                    
     <!--News Section-->
     <section class="news-section style-two">
-    	<div class="auto-container">
-        	<div class="sec-title">
-            	<h2>News & Updates</h2>
+        <div class="auto-container">
+            <div class="sec-title">
+                <h2>News & Updates</h2>
             </div>
             <div class="row clearfix">
-            	
+                
                 <!--News Block Two-->
                 <div class="news-block-two col-lg-3 col-md-4 col-sm-6 col-xs-12">
                     <div class="inner-box">

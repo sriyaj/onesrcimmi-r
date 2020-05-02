@@ -69,7 +69,7 @@
                                                                                                            </ul>
                                                    </li>
                                                 <li><a href="citizenship.php">Citizenship</a></li>
-                                                <li><a href="immigration-appeals.html">Visa Refusals & Immigration Appeals</a></li>
+                                                <li><a href="immigration-appeals.php">Visa Refusals & Immigration Appeals</a></li>
                                                 <li><a href="visa-renewal.php">Visa Renewal</a></li>
                                                 <li><a href="represent-fraud.php">Represent Fraud</a></li>
                                                 <li><a href="all-services.php">All services</a></li>

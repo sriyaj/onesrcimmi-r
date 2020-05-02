@@ -72,7 +72,7 @@
                 <div class="content-column col-lg-9 col-md-8 col-sm-12">
                 	<div class="inner-column">
                         <div class="image">
-                        	<img src="images/resource/spousal-sponsorship-3.jpg" alt="" />
+                        	<img src="images/resource/spousal-sponsorship-1.jpg" alt="" />
                         </div>
                         <h2>Canada - Spousal Sponsorship Program</h2>
                         <div class="text">

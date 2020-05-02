@@ -72,7 +72,7 @@
                 <div class="content-column col-lg-9 col-md-8 col-sm-12">
                 	<div class="inner-column">
                         <div class="image">
-                        	<img src="images/resource/company-4.jpg" alt="" />
+                        	<img src="images/resource/federal-skilled-trade-class-1.jpg" alt="" />
                         </div>
                         <h2>Canada - Federal Skilled Trade Class Program</h2>
                         <div class="text">

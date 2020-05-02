@@ -5,7 +5,7 @@
 <title>OneSource Immigration/Citizenship</title>
 <!-- Stylesheets -->
 <link href="css/bootstrap.css" rel="stylesheet">
-<link href="css/style.css" rel="stylesheet">
+<link href="css/style.css?version=1" rel="stylesheet">
 <link href="css/responsive.css" rel="stylesheet">
 
 <!--Favicon-->
@@ -29,7 +29,7 @@
 
     
     <!--Page Title-->
-    <section class="page-title" style="background-image:url(images/background/20.jpg)">
+    <section class="page-title citizenship" style="background-color:red">
     	<div class="auto-container">
         	<h1>Citizenship</h1>
         </div>
@@ -73,7 +73,7 @@
                 <div class="content-column col-lg-9 col-md-8 col-sm-12">
                 	<div class="inner-column">
                         <div class="image">
-                        	<img src="images/resource/company-4.jpg" alt="" />
+                        	<img src="images/resource/citizenship-1.jpg" alt="" />
                         </div>
                         <h2>Canada - Citizenship</h2>
                         <div class="text">

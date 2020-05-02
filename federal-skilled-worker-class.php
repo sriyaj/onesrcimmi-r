@@ -73,7 +73,7 @@
                 <div class="content-column col-lg-9 col-md-8 col-sm-12">
                 	<div class="inner-column">
                         <div class="image">
-                        	<img src="images/resource/company-4.jpg" alt="" />
+                        	<img src="images/resource/federal-skilled-worker-class-1.jpg" alt="" />
                         </div>
                         <h2>Canada - Federal Skilled Worker Class Program (FSWP)</h2>
                         <div class="text">

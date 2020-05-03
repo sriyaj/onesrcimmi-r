@@ -28,7 +28,7 @@
     <!--End Main Header -->
     
     <!--Page Title-->
-    <section class="page-title" style="background-image:url(images/background/grey-2.jpg)">
+    <section class="page-title" style="background-image:url(images/background/background-1.jpg)">
     	<div class="auto-container">
         	<h1>Spousal Sponsorship Program</h1>
         </div>

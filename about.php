@@ -31,9 +31,9 @@
     <!--End Main Header -->
     
     <!--Page Title-->
-    <section class="page-title" style="background-image:url(images/background/about.jpg)">
+    <section class="page-title" style="background-image:url(images/background/background-1.jpg)">
     	<div class="auto-container">
-        	<div class="about-us">About Us</div>
+        	<h1>About Us</h1>
         </div>
     </section>
     <!--End Page Title-->

@@ -1135,7 +1135,7 @@ img{
 }
 
 .header-style-one{
-	background-color:#1a55b7;
+	background-color:#ff0000;
 }
 
 .header-style-one .header-upper{
@@ -4176,7 +4176,7 @@ img{
 	z-index:1;
 	margin-bottom:-80px;
 	padding:22px 40px 22px;
-	background-color:#1d59bc;
+	background-color:rgb(206, 9, 9);
 	box-shadow:0px 0px 20px rgba(0,0,0,0.30);
 }
 
@@ -4339,7 +4339,7 @@ img{
 	padding-left:55px;
 	color:#ffffff;
 	font-size:16px;
-	font-weight:200;
+	font-weight:400;
 	line-height:1.8em;
 	font-family: 'Poppins', sans-serif;
 }
@@ -10006,7 +10006,7 @@ img{
 	font-size:50px;
 	font-weight:600;
 	line-height:1.2em;
-	margin-bottom:50px;
+	margin-bottom:250px;
 	text-align: left;
 }
 

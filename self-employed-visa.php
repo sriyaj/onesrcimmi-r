@@ -28,7 +28,7 @@
     <!--End Main Header -->
     
     <!--Page Title-->
-    <section class="page-title" style="background-image:url(images/background/20.jpg)">
+    <section class="page-title" style="background-image:url(images/background/grey-2.jpg)">
     	<div class="auto-container">
         	<h1>Self Employed Visa</h1>
         </div>
@@ -72,7 +72,7 @@
                 <div class="content-column col-lg-9 col-md-8 col-sm-12">
                 	<div class="inner-column">
                         <div class="image">
-                        	<img src="images/resource/company-4.jpg" alt="" />
+                        	<img src="images/resource/self-employed-1.jpg" alt="" />
                         </div>
                         <h2>Canada - Self Employed Visa</h2>
                         <div class="text">

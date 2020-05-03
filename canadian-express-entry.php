@@ -29,7 +29,7 @@
 
     
     <!--Page Title-->
-    <section class="page-title" style="background-image:url(images/background/20.jpg)">
+    <section class="page-title" style="background-image:url(images/background/grey-2.jpg)">
     	<div class="auto-container">
         	<h1>Canadian Express Entry Program</h1>
         </div>

@@ -29,7 +29,7 @@
 
     
     <!--Page Title-->
-    <section class="page-title" style="background-image:url(images/background/20.jpg)">
+    <section class="page-title" style="background-image:url(images/background/grey-2.jpg)">
     	<div class="auto-container">
         	<h1>Federal Skilled Worker Program</h1>
         </div>
@@ -73,7 +73,7 @@
                 <div class="content-column col-lg-9 col-md-8 col-sm-12">
                 	<div class="inner-column">
                         <div class="image">
-                        	<img src="images/resource/federal-skilled-worker-class-1.jpg" alt="" />
+                        	<img src="images/resource/federal-skilled-work-1.jpg" alt="" />
                         </div>
                         <h2>Canada - Federal Skilled Worker Class Program (FSWP)</h2>
                         <div class="text">

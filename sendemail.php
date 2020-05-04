@@ -16,6 +16,13 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
 <!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
+<script src="js/jquery.js"></script>
+<script> 
+$(function(){
+  $("#header").load("include-header.html"); 
+  $("#footer").load("include-footer.html"); 
+});
+</script> 
 </head>
 
 <body>
@@ -25,102 +32,7 @@
     <div class="preloader"></div>
  	
     <!-- Main Header / Header Style One-->
-    <header class="main-header header-style-one">
-    	
-        <!--Header-Upper-->
-        <div class="header-upper">
-        	<div class="clearfix">
-                	
-                <div class="pull-left logo-outer">
-                    <div class="logo"><a href="index.html"><img src="images/logo.png" alt="" title=""></a></div>
-                </div>
-                
-                <div class="pull-right upper-right clearfix">
-                    
-                    <div class="nav-outer clearfix">
-                		<!-- Main Menu -->
-                        <nav class="main-menu">
-                            <div class="navbar-header">
-                                <!-- Toggle Button -->    	
-                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                                    <span class="icon-bar"></span>
-                                    <span class="icon-bar"></span>
-                                    <span class="icon-bar"></span>
-                                </button>
-                            </div>
-                            
-                            <div class="navbar-collapse collapse clearfix">
-                                <ul class="navigation clearfix">
-                                    <li><a href="index.html">Home</a></li>
-                                    <li><a href="about.html">About us</a></li>
-                                        <li class="dropdown"><a href="#">Services</a>
-                                            <ul>
-                                                <li class="dropdown"><a href="immigrate.php">Immigrate</a>
-                                                    <ul>
-                                                        <li><a href="federal-skilled-worker-class.php">Federal Skilled Worker Class</a></li>
-                                                        <li><a href="federal-skilled-trade-class.php">Federal Skilled Trade Class</a></li>
-                                                        <li><a href="canadian-express-entry.php">Canadian Express Entry</a></li>
-                                                        <li><a href="provincial-nominee-program.php">Provincial Nominee Programs</a></li>
-                                                        <li><a href="home-caregiver-pilot.php">Home Caregiver Pilot Program</a></li>
-                                                    </ul>
-                                                </li>   
-                                                <li class="dropdown"><a href="family-all-sponsorship.php">Family Sponsorship</a>
-                                                    <ul>
-                                                        <li><a href="family-sponsorship.php">Family Sponsorship</a></li>
-                                                        <li><a href="spousal-sponsorship.php">Spousal Sponsorship</a></li>
-                                                        </ul>
-                                                </li>
-                                                <li class="dropdown"><a href="work-in-canada.php">Work in Canada</a>
-                                                    <ul>
-                                                        <li><a href="work-permit-inside.php">Work Permit Inside canada</a></li>
-                                                        <li><a href="work-permit-outside.php">Work Permit Outside canada</a></li>
-                                                        <li><a href="spousal-openwork-permit.php">Spousal Open Work Permit</a></li>
-                                                    </ul>
-                                                </li>
-                                               <li class="dropdown"><a href="visit-canada.php">Visit</a>
-                                                        <ul>
-                                                            <li><a href="visitor-visa.php">Visitor Visa</a></li>
-                                                            <li><a href="super-visa.php">Super Visa</a></li>
-                                                        </ul>
-                                                        </li>
-                                                <li class="dropdown"><a href="business-immigration.php">Business Immigration</a>
-                                                    <ul>
-                                                        <li><a href="start-up-visa.php">Start Up Visa  </a></li>
-                                                        <li><a href="self-employed-visa.php">Self Employed Visa  </a></li>
-                                                        <li><a href="provincial-nominee-investor.php">Provincial Nominee Investor Program</a></li>                                                    
-                                                        <li><a href="entrepreneur-visa.php">Entrepreneur Visa  </a></li>
-                                                        <li><a href="investor-class.php">Investor class</a></li>                                                    
-                                                                                                           </ul>
-                                                   </li>
-                                                <li><a href="citizenship.php">Citizenship</a></li>
-                                                <li><a href="immigration-appeals.html">Visa Refusals & Immigration Appeals</a></li>
-                                                <li><a href="visa-renewal.php">Visa Renewal</a></li>
-                                                <li><a href="represent-fraud.php">Represent Fraud</a></li>
-                                                <li><a href="all-services.html">All services</a></li>
-                                            </ul>
-                                        </li>
-                                    <li><a href="faq.php">FAQs</a>
-                                        <li><a href="assessment-form.html">Assessment</a>
-                                      <li><a href="contact.html">contact</a></li>
-                                    </ul>
-                            </div>
-                        </nav>
-                        
-                        <!-- Main Menu End-->
-                        <div class="outer-box">
-                            <!--Search Box-->
-
-                            <div class="number">+1 (416) 704-3632</div>
-                        </div>
-            		</div>
-                    
-                </div>
-                    
-            </div>
-        </div>
-        <!--End Header Upper-->
-        
-    </header>
+    <div id="header"></div>
     <!--End Main Header -->
     
     <!--Page Title-->
@@ -252,178 +164,9 @@
     </section>
     <!--End Map Section-->
     
-       <!--Main Footer-->
-       <footer class="main-footer">
-		<div class="auto-container">
-        
-        	<!--Upper Box-->
-        	<div class="upper-box">
-            	<div class="row clearfix">
-                	
-                    <!--Column-->
-                    <div class="column col-md-4 col-sm-6 col-xs-12">
-                    	<ul class="info-list">
-                        	<li><span class="icon flaticon-placeholder-2"></span>75 Dolobram Trail, Brampton <br> Ontario L7A 0C7</li>
-                        </ul>
-                    </div>
-                    
-                    <!--Column-->
-                    <div class="column col-md-4 col-sm-6 col-xs-12">
-                    	<ul class="info-list">
-                        	<li><span class="icon flaticon-note"></span>Email us : <br> info@onesourceimmigration.com</li>
-                        </ul>
-                    </div>
-                    
-                    <!--Column-->
-                    <div class="column col-md-4 col-sm-6 col-xs-12">
-                    	<ul class="info-list">
-                        	<li><span class="icon flaticon-phone-call"></span>Call us on : <br>+1 (416) 704-3632</li>
-                        </ul>
-                    </div>
-                    
-                </div>
-            </div>
-            
-              
-        	<!--Widgets Section-->
-            <div class="widgets-section">
-            	<div class="row clearfix">
-                	
-                    <!--big column-->
-                    <div class="big-column col-md-6 col-sm-12 col-xs-12">
-                        <div class="row clearfix">
-                        
-                            <!--Footer Column-->
-                            <div class="footer-column col-md-7 col-sm-6 col-xs-12">
-                                <div class="footer-widget logo-widget">
-									<div class="logo">
-                                    	<a href="index.html"><img src="images/logo.png" alt="" /></a>
-                                    </div>
-                                    <div class="text">OneSource Immigration Inc. is an Immigration Consultancy Firm, located in Brampton, Canada providing all immigration services to our clients from across the world.</div>                                </div>
-                            </div>
-                            
-                            <!--Footer Column-->
-                            <div class="footer-column col-md-5 col-sm-6 col-xs-12">
-                                <div class="footer-widget links-widget">
-                                	<h2>Useful Links</h2>
-                                    <div class="widget-content">
-										<ul class="list">
-                                        	<li><a href="index.html">Home</a></li>
-                                            <li><a href="about.html">About Us</a></li>
-                                            <li><a href="#">Request Call Back</a></li>
-                                            <li><a href="#">Testimonials</a></li>
-                                            <li><a href="contact.html">Contact Us</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                        </div>
-                    </div>
-                    
-            
-
-
-                <div class="info-column col-md-5 col-sm-12 col-xs-12">
-                	<div class="inner-column">
-                    	<h3>Our Address</h3>
-                        <div class="text">ompletely synergize resource taxing relationships via premier niche markets. Professionally cultivate one-to-one customer service.</div>
-                        <ul class="list-style-eight">
-                        	<li>
-                            	<span class="icon-box">
-                                	<span class="icon flaticon-location-pin"></span>
-                                </span>
-                                <strong>Address :</strong>
-                                54B, Tailstoi Town 5238 MT, La city, IA 5224
-                            </li>
-                            <li>
-                            	<span class="icon-box">
-                                	<span class="icon flaticon-technology"></span>
-                                </span>
-                                <strong>Phone :</strong>
-                                +1 (416) 704-3632  /  1254 897 3654
-                            </li>
-                            <li>
-                            	<span class="icon-box">
-                                	<span class="icon flaticon-e-mail-envelope"></span>
-                                </span>
-                                <strong>Email :</strong>
-                                contact@Rabinos.co.in
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-<!--big column-->
-<div class="big-column col-md-6 col-sm-12 col-xs-12">
-    <div class="row clearfix">
-    
-        <!--Footer Column-->
-        <div class="footer-column col-md-5 col-sm-6 col-xs-12">
-            <div class="footer-widget links-widget">
-                <h2>Services</h2>
-                <div class="widget-content">
-                    <ul class="list">
-                        <li><a href="#">Immigrate</a></li>
-                        <li><a href="#">Family</a></li>
-                        <li><a href="#">Work In canada </a></li>
-                        <li><a href="#">Visit</a></li>
-                        <li><a href="#">Citizenship</a></li>
-
-                    </ul>
-                </div>
-            </div>
-        </div>
-        
-        <!--Footer Column-->
-        <div class="footer-column col-md-7 col-sm-6 col-xs-12">
-            <div class="footer-widget newsletter-widget">
-                <h2>Newsletter</h2>
-                <div class="widget-content">
-                    <div class="text">Get latest updates and offers.</div>
-                    <div class="emailed-form">
-                        <form method="post" action="http://t.commonsupport.com/rabinos/contact.html">
-                            <div class="form-group">
-                                <input type="email" name="email" value="" placeholder="Enter your email address" required>
-                                <button type="submit" class="theme-btn"><span class="flaticon-send-message-button"></span></button>
-                            </div>
-                        </form>
-                    </div>
-                    <ul class="social-icon-two">
-                        <li><a href="https://www.facebook.com/nikitamehra1121/"><span class="fa fa-facebook"></span></a></li>
-                        <li><a href="#"><span class="fa fa-linkedin"></span></a></li>
-                        <li><a href="#"><span class="fa fa-twitter"></span></a></li>
-                        <li><a href="#"><span class="fa fa-google-plus"></span></a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        
-    </div>
-</div>
-
-</div>
-</div>
-<!--Footer Bottom-->
-            <div class="footer-bottom">
-                <div class="clearfix">
-                    <div class="pull-left">
-<div class="copyright">&copy;  Copyright OneSource Immigration 2020. All right reserved.</div>
-                    </div>
-                    <div class="pull-right">
-                        <div class="created"></div>
-                    </div>
-                </div>
-            </div>
-            
-        </div>
-        
-    </footer>
-    
-</div>
-<!--End pagewrapper-->
+    <!--Main Footer-->
+    <div id="footer"></div>
+  <!--End pagewrapper-->
 
 <!--Scroll to top-->
 <div class="scroll-to-top scroll-to-target" data-target="html"><span class="icon fa fa-angle-double-up"></span></div>

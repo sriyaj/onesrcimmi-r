@@ -2,14 +2,14 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>HTML Template | Contact</title>
+<title>OneSource Immigration/Assessment</title>
 <!-- Stylesheets -->
 <link href="css/bootstrap.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet">
 <link href="css/responsive.css" rel="stylesheet">
 
 <!--Favicon-->
-<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+<link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
 <link rel="icon" href="images/favicon.png" type="image/x-icon">
 <!-- Responsive -->
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -37,7 +37,11 @@ $(function(){
     <!--Page Title-->
     <section class="page-title" style="background-image:url(images/background/background-1.jpg)">
     	<div class="auto-container">
-        	<h1>Contact Us</h1>
+        	<h1>Assessment Form</h1>
+            <ul class="page-breadcrumb">
+            	<li><a href="index.html">Home</a></li>
+                <li>Assessment Form</li>
+            </ul>
         </div>
     </section>
     <!--End Page Title-->
@@ -45,7 +49,7 @@ $(function(){
     <!--Career Section-->
     <section class="contact-section">
     	<div class="auto-container">
-        	<h2>Drop a Message</h2>
+        	<h2>General Assessment</h2>
         	<div class="row clearfix">
             	<div class="form-column col-md-7 col-sm-12 col-xs-12">
                 	<div class="inner-column">
@@ -65,9 +69,28 @@ $(function(){
                                 </div>
 
                                 <div class="form-group">
-                                    <textarea name="body" placeholder="Your Message.." required></textarea>
+                                    <input type="text" name="phone" placeholder="Phone No" required>
                                 </div>
                                 
+                                <div class="form-group">
+                                    <input type="text" name="gender" placeholder="Gender" required>
+                                </div>
+            
+                                <div class="form-group">
+                                    <input type="text" name="nationality" placeholder="Nationality" required>
+                                </div>
+
+                                <div class="form-group">
+                                    <textarea name="body" placeholder="Your Message.." required></textarea>
+                                </div>
+            
+                                <div class="form-group">
+                                    <label for="attachment"> Upload Documents</label>
+        
+                                    <input type="file" name="attachment" placeholder="Upload Document">
+        
+                                </div>
+                                                        
                                 <div class="form-group">
                                     <button class="theme-btn btn-style-one" type="submit" name="submit">Submit now</button>
                                 </div>

@@ -39,10 +39,6 @@ $(function(){
     <section class="page-title" style="background-image:url(images/background/background-1.jpg)">
     	<div class="auto-container">
         	<h1>Contact Us</h1>
-            <ul class="page-breadcrumb">
-            	<li><a href="index.html">Home</a></li>
-                <li>Contact Us</li>
-            </ul>
         </div>
     </section>
     <!--End Page Title-->

@@ -11748,7 +11748,12 @@ img{
 
 .contact-form textarea{
 	height:175px;
-	resize:none;
+    resize:none;
+}
+.contact-form textarea .extra{
+	height:175px;
+	width:800px;
+    resize:none;
 }
 
 .contact-form .theme-btn{
@@ -12800,4 +12805,8 @@ img{
     height:25px;
     width:25px;
     margin-right: 5px;
+}
+
+.contact-form{
+	margin-bottom:100px;
 }

@@ -246,24 +246,24 @@
 			loop:true,
 			margin:0,
 			nav:true,
-			smartSpeed: 500,
-			autoplay: 4000,
+			smartSpeed: 500, 
+			//autoplay: 4000,//
 			navText: [ '<span class="fa fa-angle-left"></span>', '<span class="fa fa-angle-right"></span>' ],
 			responsive:{
 				0:{
 					items:1
 				},
 				480:{
-					items:2
+					items:1
 				},
 				600:{
-					items:3
+					items:1
 				},
 				800:{
-					items:5
+					items:1
 				},
 				1024:{
-					items:6
+					items:1
 				}
 			}
 		});    		

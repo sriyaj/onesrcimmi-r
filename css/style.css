@@ -1894,8 +1894,9 @@ img{
 
 .social-icon-two li{
 	position:relative;
-	margin-right:10px;
-	display:inline-block;
+	/*margin-right:10px;*/
+	margin-left:20px;
+    display:inline-block;
 }
 
 .social-icon-two li a{

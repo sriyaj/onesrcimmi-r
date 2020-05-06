@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>OneSource Immigration/Contact</title>
+<!-- Stylesheets -->
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+
+<script>
+ function sendEmail(){    
+    Email.send({
+        SecureToken : "2c2062da-238a-4f4e-8e8f-d77ba891a69c",
+        To : 'vidhya.jayakumar@gmail.com',
+        From : "onesourceimmigration.com@gmail.com",
+        Subject : "Sent from contact2 This is the subject",
+        Body : "Sent from Contact2 This is the body"
+    }).then(function(message){
+        alert(message)});
+}
+</script>
+</head>
+
+<body>
+                    	
+    <!-- Contact Form -->
+            
+        <!--Contact Form-->
+        
+        <!--
+        <form id="contact-form"  action="mail.js" method="POST" ></form>>
+            
+            <div class="form-group">
+                <input type="text" name="username" id="username" placeholder="Your Name..." required>
+            </div>
+            
+            <div class="form-group">
+                <input type="email" name="email" id="email" placeholder="Your Email..." required>
+            </div>
+
+            <div class="form-group">
+                <textarea name="body" placeholder="Your Message.." required></textarea>
+            </div>
+            
+            <div class="form-group">
+                <button class="theme-btn btn-style-one" type="submit"  name="submit" value="send an email" onsubmit="sendEmail()">Submit now</button>
+            </div>
+        </form>
+        -->
+
+            
+            <input type="button" onclick="sendEmail();" value="send an email">
+            
+            
+
+</body>
+</html>                            <!--End Contact Form -->
+                        

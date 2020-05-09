@@ -487,8 +487,8 @@ ul,li{
 	font-weight:400;
 	letter-spacing:1px;
 	border-radius:50px;
-	background-color:#2c62bd;
-	border:2px solid #2c62bd;
+	background-color:#be1515;
+	border:2px solid #be1515;
 	font-family: 'Poppins', sans-serif;
 }
 
@@ -656,7 +656,7 @@ img{
 	z-index:99999;
 	cursor:pointer;
 	border-radius:50px;
-	background:#08ae8d;
+	background:rgb(247, 20, 32);
 	display:none;
 	border:2px solid #08ae8d;
 	-webkit-transition:all 300ms ease;
@@ -1135,7 +1135,7 @@ img{
 }
 
 .header-style-one{
-	background-color:#1a55b7;
+	background-color:rgba(152,0,0);
 }
 
 .header-style-one .header-upper{
@@ -1207,7 +1207,7 @@ img{
 	font-size:16px;
 	color:#ffffff;
 	line-height:30px;
-	font-weight:500;
+	font-weight:800;
 	opacity:1;
 	text-transform:capitalize;
 	padding:30px 0px 15px;
@@ -1894,8 +1894,9 @@ img{
 
 .social-icon-two li{
 	position:relative;
-	margin-right:10px;
-	display:inline-block;
+	/*margin-right:10px;*/
+	margin-left:20px;
+    display:inline-block;
 }
 
 .social-icon-two li a{
@@ -3967,7 +3968,7 @@ img{
 
 .news-block-two .inner-box:hover{
 	border-color:#1d59bc;
-	background-color:#1d59bc;
+	background-color:#b93030;
 }
 
 .news-block-two .inner-box .post-date{
@@ -4025,7 +4026,7 @@ img{
 
 .news-block-two .inner-box .read-more{
 	position:relative;
-	color:#2c62bd;
+	color:#bd2c33;
 	font-size:15px;
 	font-weight:500;
 	text-decoration:underline;
@@ -4176,7 +4177,7 @@ img{
 	z-index:1;
 	margin-bottom:-80px;
 	padding:22px 40px 22px;
-	background-color:#1d59bc;
+	background-color:rgb(152,0,0);
 	box-shadow:0px 0px 20px rgba(0,0,0,0.30);
 }
 
@@ -4249,7 +4250,7 @@ img{
 	-ms-transition:all 0.3s ease;
 	-o-transition:all 0.3s ease;
 	font-family: 'Poppins', sans-serif;
-}
+}	
 
 .main-footer .list li a:hover{
 	color:#1d59bc;
@@ -4339,7 +4340,7 @@ img{
 	padding-left:55px;
 	color:#ffffff;
 	font-size:16px;
-	font-weight:200;
+	font-weight:400;
 	line-height:1.8em;
 	font-family: 'Poppins', sans-serif;
 }
@@ -5669,7 +5670,7 @@ img{
 	width:100%;
 	display:block;
 	height:100%;
-	background-color:rgba(13,72,115,0.90);
+	background-color:rgba(102, 0, 0, 0.8);
 }
 
 .call-to-action-section h2{
@@ -5691,8 +5692,11 @@ img{
 	line-height:1.6em;
 	max-width:960px;
 	margin:0 auto;
-	margin-bottom:35px;
+	margin-bottom:35px;	
 }
+
+.call-to-action-section .text h3{
+	color:rgb(229, 240, 20);}
 
 .call-to-action-section .number-box{
 	position:relative;
@@ -6117,7 +6121,7 @@ img{
 	position:absolute;
 	left:0px;
 	top:0px;
-	color:#2c62bd;
+	color:#f5232e;
 	font-size:32px;
 	line-height:1em;
 }
@@ -6160,7 +6164,7 @@ img{
 }
 
 .testimonial-block-two.style-two .inner-box .lower-box .location{
-	color:#47aadd;
+	color:#f5232e;
 }
 
 /*** 
@@ -8093,7 +8097,7 @@ img{
 	-webkit-transition:all 0.3s ease;
 	-ms-transition:all 0.3s ease;
 	-o-transition:all 0.3s ease;
-	background-color:rgba(44,98,189,0.90);
+	background-color:rgba(230, 50, 50, 0.9);
 }
 
 .services-block-nine .inner-box .image .content-overlay .overlay-inner{
@@ -9985,7 +9989,7 @@ img{
 	width:100%;
 	height:100%;
 	display:block;
-	background-color:rgba(27,81,178,0.90);
+	background-color:rgba(102,0,0,0.80)
 }
 
 .page-title h1{
@@ -10035,7 +10039,7 @@ img{
 	font-weight:500;
 }
 
-/*** 
+ /*** 
 
 ====================================================================
 	Cases Section
@@ -11745,7 +11749,12 @@ img{
 
 .contact-form textarea{
 	height:175px;
-	resize:none;
+    resize:none;
+}
+.contact-form textarea .extra{
+	height:175px;
+	width:800px;
+    resize:none;
 }
 
 .contact-form .theme-btn{
@@ -12797,4 +12806,8 @@ img{
     height:25px;
     width:25px;
     margin-right: 5px;
+}
+
+.contact-form{
+	margin-bottom:100px;
 }

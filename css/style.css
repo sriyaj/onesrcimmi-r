@@ -758,7 +758,7 @@ img{
 }
 
 .main-header .header-top.style-three{
-	background-color:#ffffff;
+	background-color:#e90f0f;
 }
 
 .main-header .header-top.style-three .top-left .links li,
@@ -1135,7 +1135,7 @@ img{
 }
 
 .header-style-one{
-	background-color:rgba(152,0,0);
+	background-color:rgb(152,0,0);
 }
 
 .header-style-one .header-upper{
@@ -1162,7 +1162,7 @@ img{
 }
 
 .header-style-four .header-upper{
-	background-color:#1d59bc;
+	background-color:#0d0d0e;
 	position: relative;
     margin: 0px 40px;
 }
@@ -12810,4 +12810,7 @@ img{
 
 .contact-form{
 	margin-bottom:100px;
+}
+.main-header header-style-three{
+	color:red;
 }

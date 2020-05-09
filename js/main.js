@@ -1,4 +1,0 @@
-function sendEmail(){
-	alert("working");
-
-}

@@ -16,7 +16,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
 <!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
-<script src="https://smtpjs.com/v3/smtp.js"></script>
+<script src="js/smtp.js"></script>
 <script src="js/jquery.js"></script>
 <script> 
 $(function(){
@@ -55,18 +55,18 @@ $(function(){
                         <div class="contact-form">
                                 
                             <!--Contact Form-->
-                            <form method="post"  id="contact-form" enctype="multipart/form-data">
+                            <form method="post" id="contact-form" enctype="multipart/form-data">
                                 
                                 <div class="form-group">
                                     <input type="text" name="username"  id="name" placeholder="Your Name..." required>
                                 </div>
                                 
                                 <div class="form-group">
-                                    <input type="email" name="email" placeholder="Your Email..." required>
+                                    <input type="email" name="email" id="email" placeholder="Your Email..." required>
                                 </div>
 
                                 <div class="form-group">
-                                    <textarea name="body" placeholder="Your Message.." required></textarea>
+                                    <textarea name="body" id="body" placeholder="Your Message.." required></textarea>
                                 </div>
                                 
                                 <div class="form-group">
@@ -144,15 +144,18 @@ $(function(){
 
 <script>   
     function sendEmail(){
-      //var username=document.getElementById("name").value  ;  
+      var username=document.getElementById("name").value;
+      var email=document.getElementById("email").value;
+      var body=document.getElementById("body").value;
+      var mailto=["vidhya.jayakumar@gmail.com", "info@onesourceimmigration.com"] //TODO - Change this to nikita's gmail
         Email.send({
             SecureToken : "2c2062da-238a-4f4e-8e8f-d77ba891a69c",
-            To : 'vidhya.jayakumar@gmail.com',
+            To : mailto,
             From : "onesourceimmigration.com@gmail.com",
-            Subject :"sent",
-            Body : "Sent from Contact2 This is the body"
+            Subject :"E-mail from:"+email,
+            Body : "There is a new message from "+username+" : "+body
         }).then(function(message){
-            alert(message)});
+            alert("E-mail sent:"+message)});
     }
 </script>
 

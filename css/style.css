@@ -1940,7 +1940,7 @@ img{
 
 .social-icon-three li a{
 	position:relative;
-	color:#1f4a93;
+	color:#ffffff;
 	font-size:18px;
 	display:inline-block;
 	-webkit-transition:all 300ms ease;
@@ -1953,6 +1953,7 @@ img{
 .social-icon-three li a:hover{
 	opacity:0.8;
 }
+
 
 /*Custom Select*/
 

@@ -565,10 +565,10 @@
 		padding:16px 0px 16px;
 	}
 	
-	.header-style-two,
+	
 	.header-top-two.style-two{
 		position:relative;
-		background-color:rgb(152,0,0);
+		background-color:#f9f9f9;
 	}
 	
 	.main-header.header-style-six .search-box-outer .dropdown-menu{
@@ -887,7 +887,7 @@
 		float:none;
 		margin:0px 0px 0px 0px;
 		border-radius:2px;
-		background:#08ae8d;
+		background:rgb(152,0,0);
 	}
 	
 	.main-menu .navbar-header .navbar-toggle .icon-bar{
@@ -1000,7 +1000,7 @@
 		padding:10px 10px !important;
 		line-height:22px;
 		color:#ffffff;
-		background:#08ae8d;
+		background:rgb(152,0,0);
 		text-align:left;
 		min-height:0px;
 	}

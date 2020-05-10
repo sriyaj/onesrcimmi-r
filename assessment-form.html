@@ -183,30 +183,26 @@ $(function(){
       var file = document.querySelector('input[type=file]').files[0];
 
       var reader = new FileReader();
-      reader.readAsArrayBuffer(file);      
-      
+      reader.readAsBinaryString(file);
+      alert("Thanks for your e-mail. We will respond to you shortly.")
       var dataUri = "data:" + file.type + ";base64," + btoa(reader.result);
 
-        reader.onload = function () {
-        Email.send({
-            SecureToken : "2c2062da-238a-4f4e-8e8f-d77ba891a69c",
-            To : mailto,
-            From : mailfrom,
-            FromName: username,
-            ReplyAddress: email,
-            Subject :mailsub,
-            Body : mailbody,
-            Attachments : [
-                {
-                    name : file.name,
-                    data : dataUri
-                }]
-        }).then(function(message){
-            alert("E-mail sent status : "+message)});
-        }
-        reader.onerror = function() {
-            console.log('Problems while attaching');
-        };
+      Email.send({
+          SecureToken : "2c2062da-238a-4f4e-8e8f-d77ba891a69c",
+          To : mailto,
+          From : mailfrom,
+          FromName: username,
+          ReplyAddress: email,
+          Subject :mailsub,
+          Body : mailbody,
+          Attachments : [
+              {
+                  name : file.name,
+                  data : dataUri
+              }]
+      }).then(function(message){
+          alert("E-mail sent : "+message)});
+
     }
 </script>
 

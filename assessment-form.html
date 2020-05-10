@@ -8,7 +8,7 @@
 <link href="css/style.css" rel="stylesheet">
 <link href="css/responsive.css" rel="stylesheet">
 
-<!--Favicon-->
+<!--Favicon--> 
 <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
 <link rel="icon" href="images/favicon.png" type="image/x-icon">
 <!-- Responsive -->
@@ -87,7 +87,7 @@ $(function(){
             
                                 <div class="form-group">
                                     <label for="attachment"> Upload Documents</label>        
-                                    <input type="file" name="attachment" placeholder="Upload Document">
+                                    <input type="file" id="attachment" name="attachment" placeholder="Upload Document">
                                 </div>
 
                                 <div class="form-group">
@@ -164,22 +164,49 @@ $(function(){
 <div class="scroll-to-top scroll-to-target" data-target="html"><span class="icon fa fa-angle-double-up"></span></div>
 
 <script>   
-    function sendEmail(){
+    function sendEmail() {
+
+      var mailfrom="onesourceimmigration.com@gmail.com";
+      var mailto=["info@onesourceimmigration.com", "vidhya.jayakumar@gmail.com"]; //TODO - Change this to nikita's gmail
       var username=document.getElementById("name").value;
       var email=document.getElementById("email").value;
-      var body=document.getElementById("body").value;
       var phone=document.getElementById("phone").value;
       var gender=document.getElementById("gender").value;
       var nationality=document.getElementById("nationality").value;
-      var mailto=["vidhya.jayakumar@gmail.com", "info@onesourceimmigration.com"]
+      
+      var body=document.getElementById("body").value;
+      body = body.replace(/\n/g, '<br>\n');
+
+      var mailsub = "Assessment form submitted by "+username;
+      var mailbody = "<html>Contact E-mail : "+email+"<br></br>Full Name      : "+username+"<br></br>Phone          : "+phone+"<br></br>Gender         : "+gender+"<br></br>Nationality    : "+nationality+"<br></br>Message : <br></br>"+body+"</html>";
+      
+      var file = document.querySelector('input[type=file]').files[0];
+
+      var reader = new FileReader();
+      reader.readAsArrayBuffer(file);      
+      
+      var dataUri = "data:" + file.type + ";base64," + btoa(reader.result);
+
+        reader.onload = function () {
         Email.send({
             SecureToken : "2c2062da-238a-4f4e-8e8f-d77ba891a69c",
             To : mailto,
-            From : "onesourceimmigration.com@gmail.com",
-            Subject :"E-mail from:"+email,
-            Body : "There is a new message from "+username+", phone : "+phone+", gender:"+gender+", nationality : "+nationality+"Message body : "+body
+            From : mailfrom,
+            FromName: username,
+            ReplyAddress: email,
+            Subject :mailsub,
+            Body : mailbody,
+            Attachments : [
+                {
+                    name : file.name,
+                    data : dataUri
+                }]
         }).then(function(message){
-            alert("E-mail sent:"+message)});
+            alert("E-mail sent status : "+message)});
+        }
+        reader.onerror = function() {
+            console.log('Problems while attaching');
+        };
     }
 </script>
 

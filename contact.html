@@ -142,20 +142,27 @@ $(function(){
 <!--Scroll to top-->
 <div class="scroll-to-top scroll-to-target" data-target="html"><span class="icon fa fa-angle-double-up"></span></div>
 
+<!--Also see -> https://codepen.io/raulfdm/pen/JNZqQv-->
 <script>   
     function sendEmail(){
+
       var username=document.getElementById("name").value;
       var email=document.getElementById("email").value;
-      var body=document.getElementById("body").value;
-      var mailto=["vidhya.jayakumar@gmail.com", "info@onesourceimmigration.com"] //TODO - Change this to nikita's gmail
+      var body = document.getElementById('body').value;
+      body = body.replace(/\n/g, '<br>\n');
+
+      var mailfrom="onesourceimmigration.com@gmail.com";
+      var mailto=["info@onesourceimmigration.com", "vidhya.jayakumar@gmail.com"]; //TODO - Change this to nikita's gmail
         Email.send({
             SecureToken : "2c2062da-238a-4f4e-8e8f-d77ba891a69c",
             To : mailto,
-            From : "onesourceimmigration.com@gmail.com",
-            Subject :"E-mail from:"+email,
-            Body : "There is a new message from "+username+" : "+body
+            From : mailfrom,
+            FromName: username,
+            ReplyAddress: email,
+            Subject :"New e-mail from "+username,
+            Body : "<html>Contact E-mail : "+email+"<br></br><h2>Message from "+username+"</h2><br></br>"+body+"</html>"
         }).then(function(message){
-            alert("E-mail sent:"+message)});
+            alert("E-mail sent status : "+message)});
     }
 </script>
 

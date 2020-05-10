@@ -1020,7 +1020,7 @@
 	.main-menu .navigation > li.has-mega-menu .mega-menu ul > li:hover > a,
 	.main-menu .navigation > li.has-mega-menu .mega-menu ul > li.current > a,
 	.main-menu .navigation > li.has-mega-menu .mega-menu ul > li.current-menu-item > a{
-		background:#08ae8d;
+		background:black;
 		color:#ffffff !important;
 	}
 	

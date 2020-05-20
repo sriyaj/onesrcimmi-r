@@ -359,6 +359,7 @@ $(function(){
 <script>
     function sendEmail() {
 
+        var secureToken = "2c2062da-238a-4f4e-8e8f-d77ba891a69c";
         var mailfrom="onesourceimmigration.com@gmail.com";
         var mailto=["info@onesourceimmigration.com", "vidhya.jayakumar@gmail.com"]; //TODO - Change this to nikita's gmail
         var username=document.getElementById("name").value;
@@ -372,40 +373,56 @@ $(function(){
 
         var mailsub = "Assessment form submitted by "+username;
         var mailbody = "<html>Contact E-mail : "+email+"<br></br>Full Name      : "+username+"<br></br>Phone          : "+phone+"<br></br>Gender         : "+gender+"<br></br>Nationality    : "+nationality+"<br></br>Message : <br></br>"+body+"</html>";
-        
+
         var theAttachment = document.querySelector('input[type=file]').files[0];
 
-        var reader = new FileReader();
-        reader.readAsDataURL(theAttachment);
-        
-        reader.onload = function(event) {
-            if(reader.readyState == FileReader.DONE) {
-                var dataUri = reader.result;
+        var feedbackMsg = ". Our consultant will review your details and respond to you shortly. Thanks for visiting OneSource Immigration.";
 
-                Email.send({
-                    SecureToken : "2c2062da-238a-4f4e-8e8f-d77ba891a69c",
-                    To : mailto,
-                    From : mailfrom,
-                    FromName: username,
-                    ReplyAddress: email,
-                    Subject : mailsub,
-                    Body : mailbody,
-                    Attachments : [
-                        {
-                            name : theAttachment.name,
-                            data : dataUri
-                        }]
-                }).then(function(message){
-                    alert("E-mail status "+message+". Our consultant will review your details and respond to you shortly. Thanks for visiting OneSource Immigration.")});
-            }
-            if(reader.readyState == FileReader.EMPTY) {
-                    alert("Failed to read attachment due to error: "+message+". Please send message to info@onesourceimmigration.com from your e-mail.");
-            }            
-         };
-        reader.onerror = function(message) {
-            console.log("Error code: "+message);
-            alert("Failed to send attachment due to error: "+message+". Please retry attachment directly to info@onesourceimmigration.com from your e-mail.")
-        };
+        if(theAttachment == null) {
+            Email.send({
+                SecureToken : secureToken,
+                To : mailto,
+                From : mailfrom,
+                FromName: username,
+                ReplyAddress: email,
+                Subject : mailsub,
+                Body : mailbody
+            }).then(function(message){
+                alert("E-mail status "+message+feedbackMsg)});
+        }
+        else {
+            var reader = new FileReader();
+            reader.readAsDataURL(theAttachment);
+            
+            reader.onload = function(event) {
+                if(reader.readyState == FileReader.DONE) {
+                    var dataUri = reader.result;
+
+                    Email.send({
+                        SecureToken : secureToken,
+                        To : mailto,
+                        From : mailfrom,
+                        FromName: username,
+                        ReplyAddress: email,
+                        Subject : mailsub,
+                        Body : mailbody,
+                        Attachments : [
+                            {
+                                name : theAttachment.name,
+                                data : dataUri
+                            }]
+                    }).then(function(message){
+                        alert("E-mail status "+message+feedbackMsg)});
+                }
+                if(reader.readyState == FileReader.EMPTY) {
+                        alert("Failed to read attachment due to error: "+message+". Please send message to info@onesourceimmigration.com from your e-mail.");
+                }            
+            };
+            reader.onerror = function(message) {
+                console.log("Error code: "+message);
+                alert("Failed to send attachment due to error: "+message+". Please retry attachment directly to info@onesourceimmigration.com from your e-mail.")
+            };
+        }
 
     }
 </script>

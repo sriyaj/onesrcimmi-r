@@ -58,7 +58,7 @@ $(function(){
                             <form method="post" id="contact-form" enctype="multipart/form-data">
                                 
                                 <div class="form-group">
-                                    <input type="text" name="username" id="name" placeholder="Your Name..." required>
+                                    <input type="text" name="username" id="username" placeholder="Your Name..." required>
                                 </div>
                                 
                                 <div class="form-group">
@@ -358,11 +358,29 @@ $(function(){
 
 <script>
     function sendEmail() {
+        
+        var check_formx = document.forms["contact-form"]["username"].value;
+        if (check_formx == "") {
+            alert("Your Name must be filled out");
+            return false;
+        }
+        
+        check_formx = document.forms["contact-form"]["email"].value;
+        if (check_formx == "") {
+            alert("Please enter your Email ID");
+            return false;
+        }
+
+        check_formx = document.forms["contact-form"]["phone"].value;
+        if (check_formx == "") {
+            alert("Please enter your phone number");
+            return false;
+        }
 
         var secureToken = "2c2062da-238a-4f4e-8e8f-d77ba891a69c";
         var mailfrom="onesourceimmigration.com@gmail.com";
         var mailto=["info@onesourceimmigration.com", "vidhya.jayakumar@gmail.com"]; //TODO - Change this to nikita's gmail
-        var username=document.getElementById("name").value;
+        var username=document.getElementById("username").value;
         var email=document.getElementById("email").value;
         var phone=document.getElementById("phone").value;
         var gender=document.getElementById("gender").value;

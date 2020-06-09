@@ -1069,6 +1069,7 @@ img{
 .header-style-two,.header-top-two.style-two{
 	background-color:#f9f9f9;
 
+
 }
 
 .header-style-two .logo-outer{
@@ -12853,4 +12854,16 @@ img{
 }
 .main-header header-style-three{
 	color:red;
+}
+
+.requiredFieldWrapper::after 
+{
+    font-family: 'Glyphicons asterisk';
+    content: '*';
+    position: absolute;
+    top:2px;
+    bottom: 0;
+    right: 17px;
+    font-size: 18px;
+	color: red;
 }

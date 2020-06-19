@@ -4435,8 +4435,8 @@ img{
 .about-section-two .content-column h2{
 	position:relative;
 	color:#000000;
-	font-size:35px;
-	line-height:1.3em;
+	font-size:30px;
+	line-height:2.5em;/* changed from 1.3em*/
 	margin-bottom:25px;
 }
 

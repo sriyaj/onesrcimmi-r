@@ -53,24 +53,25 @@ $(function(){
                     	
                         <!-- Contact Form -->
                         <div class="contact-form">
-                                
+                            <span style="color:red"> * </span>Required Information     
+        
                             <!--Contact Form-->
                             <form method="post" id="contact-form" enctype="multipart/form-data">
                                 
-                                <div class="form-group">
+                                <div class="form-group requiredFieldWrapper">
                                     <input type="text" name="username"  id="username" placeholder="Your Name..." required>
                                 </div>
                                 
-                                <div class="form-group">
+                                <div class="form-group requiredFieldWrapper">
                                     <input type="email" name="email" id="email" placeholder="Your Email..." required>
                                 </div>
 
                                 <div class="form-group">
-                                    <input type="text" name="phone" id="phone" placeholder="Phone No" required>
+                                    <input type="text" name="phone" id="phone" placeholder="Your Phone No" >
                                 </div>
 
                                 <div class="form-group">
-                                    <textarea name="body" id="body" placeholder="Your Message.." required></textarea>
+                                    <textarea name="body" id="body" placeholder="Your Message.."></textarea>
                                 </div>
                                 
                                 <div class="form-group">
